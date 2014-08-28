@@ -14,14 +14,6 @@ You can contribute to [Azure documentation](http://azure.microsoft.com/en-us/doc
 
 The content in the azure-content repository follows the organization of documentation on [Azure.Microsoft.com](http://azure.microsoft.com). This repository contains two root folders: 
 
-### \articles 
-
-The *\articles* folder contains the documentation articles formatted as markdown files with an *.md* extension. Articles are published to Azure.Microsoft.com in the path *http://azure.microsoft.com/en-us/documentation/articles/{article-name-without-md}/*. 
-
-* **Article filenames:** Begin with the service name, such as *hdinsight*, and include the development language and a description of the subject matter. Use all lowercase letters and dashes (-) to separate the words. 
-
-* **Media subfolders:** The *\articles* folder contains the *\media* folder, inside which are subfolders with the images for each article. The article image folders are named identically to the article file, minus the *.md* file extension.
-
 ### \includes
 
 Content authors can create reusable content sections to be included into one or more articles. An include file is simple markdown (.md) file that can contain any valid markdown content including text, links, and images. All include markdown files must be contained in the *\includes* directory in the root of this repository. 
