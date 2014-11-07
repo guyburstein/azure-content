@@ -4,6 +4,23 @@
 
 # Get started with Azure Websites and ASP.NET
 
+As part of creating the website, the site's URL is assigned a subdomain of azurewebsites.net. In various for-pay tiers, a website can be assigned one or more custom domains. This is implemented by setting a CNAME record on the DNS server that hosts the user's domain's zone to point at the user's web site hosted in Azure.[6] On some for-pay tiers, the user has the added option of uploading an SSL certificate and configuring his site to be bound to HTTPS.[7]
+Once a site has been created, the user can add or modify its content using multiple deployment methods, including Web Deploy(MSDeploy), TFS (via Visual Studio), FTP, FTPS, WebMatrix, CodePlex, GitHub, Dropbox, Bitbucket, Mercurial and local GIT.[8]
+Other features of Azure Web Sites are:
+User-selected placement in one or multiple data centers across the globe.
+Uptime SLA of 99.9% for Standard tier customers.[9]
+Continuous monitoring of site metrics such as CPU time, Data in, Data out, HTTP errors and additional metrics.
+Setting of monitoring alerts.[10]
+Log collection and failed request tracing for tracking and troubleshooting.
+Deployment of a Microsoft SQL or MySQL database to be used with web applications.[11]
+Websites are hosted on IIS 8.0 running on a custom version of Windows Server 2012.
+Support for 4 service tiers: Free, Shared, Basic and Standard (dedicated).[12]
+In the Basic and Standard tiers, support for 3 VM sizes for scaling up.[13]
+In the for-pay tiers, support for manual or automatic scaling-out with up to 10 instances of VMs.[14]
+Support for integration with Azure Traffic Manager to route traffic manually or automatically between websites in different regions across the globe.
+Authentication using Microsoft Azure Active Directory
+
+
 This tutorial shows how to create an ASP.NET web application and deploy it to an Azure Website by using Visual Studio 2013 or Visual Studio 2013 for Web Express. The tutorial assumes that you have no prior experience using Azure or ASP.NET. On completing the tutorial, you'll have a simple web application up and running in the cloud.
 
 You can open an Azure account for free, and if you don't already have Visual Studio 2013, the SDK automatically installs Visual Studio 2013 for Web Express. So you can start developing for Azure entirely for free.
