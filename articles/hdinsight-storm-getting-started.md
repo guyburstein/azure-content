@@ -116,7 +116,7 @@ For the preview release of Storm on HDInsight, you must connect to the cluster u
 
 3. From the Hadoop Command Line, use the following command to change directories to the directory containing the Storm command.
 
-	cd %storm_home%\bin
+		cd %storm_home%\bin
 
 4. To see a list of commands available, enter `storm` without any parameters.
 
