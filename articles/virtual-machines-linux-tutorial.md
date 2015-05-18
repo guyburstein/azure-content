@@ -16,7 +16,7 @@
 	ms.date="04/03/2015"
 	ms.author="kathydav"/>
 
-# Create a Virtual Machine Running Linux
+### Create a Virtual Machine Running Linux
 
 > [AZURE.SELECTOR]
 - [Azure Portal](virtual-machines-linux-tutorial.md)
