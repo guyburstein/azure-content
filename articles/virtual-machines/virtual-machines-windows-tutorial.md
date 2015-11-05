@@ -28,35 +28,6 @@
 [AZURE.INCLUDE [learn-about-deployment-models](../../includes/learn-about-deployment-models-rm-include.md)] classic deployment model. 
 
 
-
-This tutorial shows you how easy it is to create an Azure virtual machine in just a few minutes in the preview portal. We'll use a Windows Server 2012 R2 Datacenter image as an example to create the virtual machine, but that's just one of the many images Azure offers. Your image choices depend on your subscription. For example, desktop images may be available to MSDN subscribers.
-
-You can also create virtual machines using your own images, with Resource Manager templates, or with automation tools. To learn about the different methods, see [Different Ways to Create a Windows Virtual Machine](virtual-machines-windows-choices-create-vm.md).
-
-This tutorial uses the Resource Manager deployment model to create the virtual machine. This is recommended instead of the classic deployment model, which is based on Service Management APIs. For details about Resource Manager, see [Azure Resource Manager Overview](resource-group-overview.md). To learn about the benefits of using Resource Manager for virtual machines, see [Azure Compute, Network & Storage Providers under Azure Resource Manager](virtual-machines-azurerm-versus-azuresm.md).
-
-[AZURE.INCLUDE [free-trial-note](../../includes/free-trial-note.md)]
-
-## Video walkthrough
-
-Here's a walkthrough of this tutorial.
-
-[AZURE.VIDEO create-a-virtual-machine-running-windows-in-the-azure-preview-portal]
-
-## Select the image
-
-1. Sign in to the [preview portal](https://portal.azure.com).
-
-2. On the Hub menu, click **New** > **Compute** > **Windows Server 2012 R2 Datacenter**.
-
-	![Marketplace](./media/virtual-machines-windows-tutorial/marketplace_new.png)
-
-	>[AZURE.TIP] To find additional images, click **Marketplace** and then search or filter for available items.
-
-3. On the **Windows Server 2012 R2 Datacenter** page, under **Select a deployment model**, select **Resource Manager**. Click **Create**.
-
-	![Search in the Marketplace](./media/virtual-machines-windows-tutorial/marketplace_search_select.png)
-
 ## Create the virtual machine
 
 After you select the image, you can use Azure's default settings for most of the configuration and quickly create the virtual machine.
